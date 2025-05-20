@@ -1,0 +1,69 @@
+:root {
+  --bg-color: #fdfaf6;
+  --bg-color-header: #f6e8ea;
+  --bg-color-card: #fffefb;
+
+  --text-color: #6e6e6e;
+  --text-muted: #6b6b6b;
+
+  --font-main: 'Dancing Script', cursive;
+
+  --btn-bg-color: #b8c1ec;
+  --btn-text-color: #ffffff;
+  --btn-hover-color: #a3aedf;
+
+  --accent-color: #ffc6c7;
+  --accent-light: #ffe3e4;
+
+  --border-color: #ddd;
+  --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.5);
+  --box-shadow-hover-card: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: var(--bg-color);
+}

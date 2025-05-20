@@ -1,0 +1,7 @@
+.body_text {
+  padding: 1.5rem 0;
+  font-size: 1.75rem;
+  color: var(--text-color);
+  font-family: var(--font-main);
+  font-weight: 700;
+}

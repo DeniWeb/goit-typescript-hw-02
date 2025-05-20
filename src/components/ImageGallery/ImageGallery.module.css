@@ -1,0 +1,10 @@
+.gallery_container {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery_item {
+  width: calc((100% - 3rem) / 4);
+}

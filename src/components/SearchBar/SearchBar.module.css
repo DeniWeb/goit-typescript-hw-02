@@ -1,0 +1,50 @@
+.header_container {
+  background-color: var(--bg-color-header);
+  padding: 1.5rem 0;
+}
+
+.header_form {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_input {
+  width: 15rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-main);
+  font-size: 1.25rem;
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+
+  &:focus {
+    outline: none;
+    box-shadow: var(--box-shadow-hover);
+  }
+}
+
+.header_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-main);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  border: none;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background-color: var(--btn-hover-color);
+    box-shadow: var(--box-shadow-hover);
+  }
+}

@@ -1,0 +1,9 @@
+.modal_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: var(--text-color);
+  font-family: var(--font-main);
+}
